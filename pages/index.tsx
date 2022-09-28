@@ -33,7 +33,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div>
+      <div className={styles.canvas} style={{backgroundColor: '#f5f5f5', width:'90%'}}>
         <Pau>
 
         </Pau>

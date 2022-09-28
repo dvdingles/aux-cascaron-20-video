@@ -1,14 +1,15 @@
 
 import React from "react";
 
-export function Pau(props) {
+export function Pau() {
 
 
   return (
 
     <>
-        <video width={'333'}>
-            <source src="../public/aaa.mp4" />
+        <video width={'90%'} height={'50%'} autoPlay muted controls>
+            <source src={'../public/aaa.mp4'} type={'video/mp4'}>
+              </source>
         </video>
     </>
     
